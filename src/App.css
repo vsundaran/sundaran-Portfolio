@@ -1,0 +1,33 @@
+.easein {
+  transition: background 500ms ease !important;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  /* background-color: red; */
+}
+
+.verticalDivider {
+  height: 40px;
+  margin-top: 4px;
+  width: 1px;
+  background-color: gray;
+}
+
+@media (max-width: 576px) {
+  .myButton {
+    display: none !important;
+  }
+}
+
+::selection {
+  background-color: gray;
+  color: black;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .myButton {
+    display: flex !important;
+  }
+}
